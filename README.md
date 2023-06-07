@@ -1,3 +1,19 @@
+# React Basic Learning
+
+Welcome to the React Learning Playground repository! This project is a one-page application built with React.js that serves as a learning platform for React beginners. It encompasses a variety of features and concepts to help you grasp the basics of React development.
+
+⚪ Multiple Pages: The application consists of different buttons, each leading to a separate page. Each page focuses on a specific concept or topic in React, allowing you to explore and learn at your own pace.
+
+⚪ React Hooks: Throughout the project, you'll encounter various React hooks such as useState, useContext, useEffect, useLocation, useParams, and useReducer. These hooks provide powerful functionality and help you understand the fundamentals of state management and component lifecycle.
+
+⚪ API Integration: One of the pages demonstrates how to make API calls using both Axios and the Fetch API. You'll learn how to fetch data from an external API and handle the responses using these popular HTTP client libraries.
+
+⚪ Google Keep Notes Project: In addition to learning individual concepts, this repository also includes a simple project inspired by Google Keep Notes. You'll get hands-on experience with component composition, state management, and user interactions.
+
+⚪ Live Image Search Filter: Another page showcases how to implement a live image search filter using React hooks. As you type in the search box, the images are filtered in real-time based on the input.
+
+This repository serves as an interactive playground for React beginners, providing practical examples and exercises to enhance your understanding of React concepts. By exploring the different pages and working on the Google Keep Notes project, you'll gain valuable hands-on experience in React development.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
