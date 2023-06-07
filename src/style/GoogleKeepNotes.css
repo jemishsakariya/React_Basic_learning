@@ -1,0 +1,85 @@
+.form {
+    position: relative;
+    width: 30rem;
+    margin: 2rem auto 3.125rem auto;
+    padding: 0.5px;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 7px rgba(128, 128, 128);
+}
+
+.input {
+    width: 94%;
+    border: none;
+    padding: 14px 14px;
+    margin-top: 8px;
+    font-size: 1rem;
+    outline: none;
+    resize: none;
+    border-radius: 0.5rem;
+}
+
+.textarea {
+    width: 94%;
+    border: none;
+    padding: 14px 14px;
+    font-size: 1rem;
+    outline: none;
+    resize: none;
+    border-radius: 2rem;
+}
+
+form .add_btn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 14px;
+    bottom: -18px;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 36px;
+    height: 56px;
+    box-shadow: 0 1px 3px rgba(165, 165, 165);
+}
+
+.add_btn:hover {
+    background-color: #fff;
+}
+
+.deletebtn {
+    position: relative;
+    float: right;
+}
+
+.note {
+    width: 240px;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px rgba(175, 175, 175);
+    padding: 10px;
+    margin: 16px 50px;
+    float: left;
+}
+
+.note h1 {
+    font-size: 1rem;
+    margin-bottom: 6px;
+}
+
+.note p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+@media only screen and (max-width: 426px) {
+    .form {
+        width: 20rem;
+    }
+
+    .textarea,
+    .input {
+        width: 90%;
+        border-radius: 2rem;
+    }
+}
